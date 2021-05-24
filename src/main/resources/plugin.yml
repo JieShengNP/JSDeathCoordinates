@@ -1,0 +1,5 @@
+name: JSDeathCoordinates
+version: 1.0
+author: JieSheng03
+main: io.github.jieshengnp.jsdeathcoordinates.JSDeathCoordinates
+api-version: 1.16
