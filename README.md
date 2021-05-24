@@ -1,2 +1,2 @@
 # JSDeathCoordinates
-Testing of Spigot Plugins API to write a Death Coordinates plugin that tells the player and console the location and dimension of the death.
+A minecraft plugin that allows the player and server console to view the player's death location.
