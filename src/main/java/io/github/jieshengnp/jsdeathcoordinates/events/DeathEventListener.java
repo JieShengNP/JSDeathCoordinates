@@ -29,7 +29,7 @@ public class DeathEventListener implements Listener {
                 deathWorldName = "The End";
         }
 
-        console.sendMessage( ChatColor.GREEN + "[JSDeathCoordinates] " + ChatColor.RED + player.getName() + " has died in " + deathLocation.getWorld().getName() + " at " + String.format("%.2f", deathLocation.getX()) + " " + String.format("%.2f", deathLocation.getY()) + " " + String.format("%.2f", deathLocation.getZ()));
-        player.sendMessage(ChatColor.GREEN + "[JSDeathCoordinates] " + ChatColor.RED + "You have died in " + deathWorldName + " at X:" + String.format("%.2f", deathLocation.getX()) + " Y:" + String.format("%.2f", deathLocation.getY()) + " Z:" + String.format("%.2f", deathLocation.getZ()));
+        console.sendMessage( ChatColor.GREEN + "[JSDeathCoordinates] " + ChatColor.RED + player.getName() + " has died in " + deathLocation.getWorld().getName() + " at " + deathLocation.getBlockX() + " " + deathLocation.getBlockY() + " " + deathLocation.getBlockZ());
+        player.sendMessage(ChatColor.GREEN + "[JSDeathCoordinates] " + ChatColor.RED + "You have died in " + deathWorldName + " at X:" + deathLocation.getBlockX() + " Y:" + deathLocation.getBlockY() + " Z:" + deathLocation.getBlockZ());
     }
 }
